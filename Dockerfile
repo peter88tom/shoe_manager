@@ -1,6 +1,6 @@
 # init base image (Alpine is small Linux distro)
 
-FROM python:3.6.1-alpine
+FROM python:3.9-slim
 
 # define the present working directory
 WORKDIR /shoe_manager
